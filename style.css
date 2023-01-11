@@ -31,7 +31,7 @@
 
 .navbar {
     padding: 0;
-    /* border: 1px solid green; */
+    cursor: context-menu;
 }
 
 .navbar li {
@@ -74,3 +74,90 @@
     border: 1px solid white;
     text-decoration: none;
 }
+
+.course{
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.course-box{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 25px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+.course-sec{
+    display: flex;
+    padding: 20px 15px;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 25%;
+    /* height: 200px; */
+    text-align: center;
+    border-radius: 15px;
+    background-color: #fff3f3;
+    /* border: 1px solid red; */
+}
+
+.course-sec h3{
+    padding-bottom: 7px;
+}
+
+/* .campus{
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.campus-box{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.campus-sec{
+    border: 1px solid red;
+    margin: auto;
+}
+
+.campus-img{
+    width: 350px;
+    height: 200px;
+}
+
+.campus-hover{
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.campus-hover:hover{
+    background-color: aqua;
+}
+
+.campus-hover h3{
+    width: 100%;
+    font-size: 10px;
+    transform: translateX(-50%);
+    position: absolute;
+    left: -50%;
+    bottom: 0;
+    opacity: 0;
+}
+
+.campus-hover:hover h3{
+    bottom: 35%;
+    opacity: 1;
+} */
