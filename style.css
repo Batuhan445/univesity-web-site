@@ -60,6 +60,7 @@
 }
 
 .about-header h1 {
+    text-align: center;
     font-size: 75px;
 }
 
@@ -299,4 +300,18 @@
 
 .aboutus-title img{
     width: 13px;
+}
+
+@media screen and (max-width:768px){
+
+.navbar{
+    display: none;
+}
+
+}
+
+@media screen and (min-width:769px) {
+    .navbar-menu{
+        display: none;
+    }
 }
