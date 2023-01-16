@@ -76,7 +76,7 @@
 }
 
 .course{
-    padding-top: 75px;
+    margin-top: 75px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,7 +88,7 @@
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    padding-top: 25px;
+    margin-top: 25px;
     margin: auto;
     /* border: 1px solid red; */
 }
@@ -164,7 +164,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-top: 35px;
+    margin-top: 50px;
     /* border: 1px solid purple; */
 
 }
@@ -175,7 +175,7 @@
     margin: auto;
     grid-template-columns: auto auto auto;
     column-gap: 13%;
-    padding-top: 15px;
+    margin-top: 25px;
     /* border: 1px solid red; */
 }
 
@@ -192,9 +192,54 @@
 
 .facilities-title{  
     text-align: left;
-    padding-top: 5px;
+    margin-top: 5px;
 }
 
 .facilities-title p{  
-    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.student{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.student-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    width: 80%;
+    /* border: 1px solid red; */
+}
+
+.student-content{
+    background-color: #fff3f3;
+    padding: 25px;
+    width: 40%;
+    border-radius: 15px;
+    /* border: 1px solid green; */
+}
+
+.student-desc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.student-content p{
+    width: 85%;
+    /* border: 1px solid red; */
+}
+
+.student-content img{
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+}
+
+.student-star{
+    margin-top: 15px;
+    margin-left: 15%;
+    /* border: 1px solid red; */
 }
