@@ -332,6 +332,13 @@
 
 }
 
+@media screen and (max-width:375px){
+    .campus-title{
+        left: 37%;
+        top: 40%;
+    }
+}
+
 @media screen and (min-width:769px) {
     .navbar-menu{
         display: none;
