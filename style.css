@@ -141,8 +141,13 @@
 .campus-title{
     display: none;
     position: absolute;
-    left: 40%;
+    left: 50%;
     top: 45%;
+}
+
+.campus-title-insider{
+    position: relative;
+    left: -50%;
 }
 
 .campus-title h3{
@@ -326,17 +331,17 @@
     margin-top: 10px;
 }
 
-.campus-title{
+/* .campus-title{
     left: 45%;
-}
+} */
 
 }
 
 @media screen and (max-width:375px){
-    .campus-title{
+    /* .campus-title{
         left: 37%;
         top: 40%;
-    }
+    } */
 }
 
 @media screen and (min-width:769px) {
