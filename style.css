@@ -69,14 +69,14 @@
     margin: 20px 0 50px;
 }
 
-.about-header a{
+.about-header a {
     padding: 15px 25px;
     color: white;
     border: 1px solid white;
     text-decoration: none;
 }
 
-.course{
+.course {
     margin-top: 75px;
     display: flex;
     flex-direction: column;
@@ -84,7 +84,7 @@
     text-align: center;
 }
 
-.course-box{
+.course-box {
     width: 75%;
     display: flex;
     justify-content: space-between;
@@ -92,7 +92,7 @@
     margin: auto;
 }
 
-.course-sec{
+.course-sec {
     margin-top: 25px;
     display: flex;
     padding: 20px 15px;
@@ -104,11 +104,11 @@
     /* border: 1px solid red; */
 }
 
-.course-sec h3{
+.course-sec h3 {
     padding-bottom: 7px;
 }
 
-.campus{
+.campus {
     padding-top: 75px;
     display: flex;
     flex-direction: column;
@@ -117,7 +117,7 @@
     text-align: center;
 }
 
-.campus-box{
+.campus-box {
     padding-top: 20px;
     margin: auto;
     width: 75%;
@@ -128,43 +128,43 @@
     /* border: 1px solid red; */
 }
 
-.campus-sec{
+.campus-sec {
     position: relative;
     /* border: 1px solid blue; */
 }
 
-.campus-sec:hover img{
-    background: rgba(255,243,243,0.5);
+.campus-sec:hover img {
+    background: rgba(255, 243, 243, 0.5);
     opacity: 0.7;
 }
 
-.campus-title{
+.campus-title {
     display: none;
     position: absolute;
     left: 50%;
     top: 45%;
 }
 
-.campus-title-insider{
+.campus-title-insider {
     position: relative;
     left: -50%;
 }
 
-.campus-title h3{
+.campus-title h3 {
     opacity: 1;
 }
 
-.campus-sec:hover .campus-title{
+.campus-sec:hover .campus-title {
     display: block;
 }
 
-.campus-img{
+.campus-img {
     width: 100%;
     height: 100%;
     border-radius: 15px;
 }
 
-.facilities{
+.facilities {
     /* display: flex; */
     flex-direction: column;
     justify-content: center;
@@ -174,7 +174,7 @@
 
 }
 
-.facilities-container{
+.facilities-container {
     display: flex;
     width: 75%;
     margin: auto;
@@ -184,29 +184,29 @@
     /* border: 1px solid red; */
 }
 
-.facilities-img{
+.facilities-img {
     width: 100%;
     /* height: 25%; */
     border-radius: 15px;
 }
 
-.facilities-title{  
+.facilities-title {
     text-align: left;
     margin-top: 5px;
 }
 
-.facilities-title p{  
+.facilities-title p {
     margin-top: 15px;
 }
 
-.student{
+.student {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 75px;
 }
 
-.student-container{
+.student-container {
     display: flex;
     justify-content: space-around;
     margin-top: 25px;
@@ -214,7 +214,7 @@
     /* border: 1px solid red; */
 }
 
-.student-content{
+.student-content {
     background-color: #fff3f3;
     padding: 25px;
     width: 40%;
@@ -222,49 +222,49 @@
     /* border: 1px solid green; */
 }
 
-.student-desc{
+.student-desc {
     display: flex;
     justify-content: space-between;
 }
 
-.student-content p{
+.student-content p {
     width: 85%;
     /* border: 1px solid red; */
 }
 
-.student-content img{
+.student-content img {
     width: 50px;
     height: 50px;
     border-radius: 150px;
 }
 
-.student-star{
+.student-star {
     margin-top: 15px;
     width: 75%;
     margin-left: 14.5%;
     /* border: 1px solid red; */
 }
 
-.contact{
+.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: auto;
     margin-top: 70px;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./img/banner2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/banner2.jpg);
     background-size: cover;
     width: 75%;
     padding: 100px 0;
     border-radius: 15px;
 }
 
-.contact h1{
+.contact h1 {
     text-align: center;
     color: white;
 }
 
-.contact a{
+.contact a {
     color: white;
     text-decoration: none;
     border: 1px solid white;
@@ -272,7 +272,7 @@
     margin-top: 35px;
 }
 
-.aboutus{
+.aboutus {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -280,128 +280,142 @@
     margin-bottom: 3%;
 }
 
-.aboutus h4{
+.aboutus h4 {
     font-size: 30px;
 }
 
-.aboutus p{
+.aboutus p {
     text-align: center;
     margin-top: 1%;
 }
 
-.aboutus-lists{
+.aboutus-lists {
     margin-top: 25px;
     padding: 0;
     width: 25vh;
 }
 
-.aboutus-lists ul{
+.aboutus-lists ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
     /* border: 1px solid green; */
 }
 
-.aboutus-title{
+.aboutus-title {
     margin-top: 25px;
 }
 
-.aboutus-title img{
+.aboutus-title img {
     width: 13px;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
 
-.navbar{
-    display: none;
-}
+    .course-description,
+    .campus-description,
+    .facilities-description,
+    .facilities-description,
+    .student-description {
+        margin: auto;
+        width: 75%;
+    }
 
-.about-header{
-    font-size: 15px;
-}
+    .navbar {
+        display: none;
+    }
 
-.about-header h1{
-    font-size: 45px;
-}
+    .about-header {
+        font-size: 15px;
+    }
 
-.course-sec{
-    width: 75%;
-}
+    .about-header h1 {
+        font-size: 45px;
+    }
 
-.course-box{
-    flex-direction: column;
-    align-items: center;
-}
+    .course-sec {
+        width: 75%;
+    }
 
-.campus-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .course-box {
+        flex-direction: column;
+        align-items: center;
+    }
 
-.campus-sec{
-    margin-top: 10px;
-}
+    .campus-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.facilities-container{
-    flex-direction: column;
-}
+    .campus-sec {
+        margin-top: 10px;
+    }
 
-.facilities-content{
-    margin-top: 35px;
-}
+    .facilities-container {
+        flex-direction: column;
+    }
 
-.facilities-title p{
-    text-align: left;
-}
+    .facilities-content {
+        margin-top: 35px;
+    }
 
-.student h1, p{
-    text-align: center;
-}
+    .facilities-title p {
+        text-align: left;
+    }
 
-.student-container{
-    flex-direction: column;
-    align-items: center;
-    /* width: 100%; */
-}
+    .student h1{
+        width: 80%;
+    }
 
-.student-content{
-    width: 80%;
-    margin-top: 25px;
-}
+    .student h1,
+    p {
+        text-align: center;
+    }
 
-.student-desc p{
-    width: 70%;
-    font-size: 13px;
-    text-align: left;
-}
+    .student-container {
+        flex-direction: column;
+        align-items: center;
+        /* width: 100%; */
+    }
 
-.student-star{
-    margin-left: 29%;
-}
+    .student-content {
+        width: 80%;
+        margin-top: 25px;
+    }
 
-.contact h1{
-    font-size: 22px;
-    width: 75%;
-}
+    .student-desc p {
+        width: 70%;
+        font-size: 13px;
+        text-align: left;
+    }
 
-.aboutus h4{
-    font-size: 25px
-}
+    .student-star {
+        margin-left: 29%;
+    }
 
-.aboutus p{
-    width: 75%;
-}
+    .contact h1 {
+        font-size: 22px;
+        width: 75%;
+    }
 
-.aboutus-title p{
-    width: 100%;
-}
+    .aboutus h4 {
+        font-size: 25px
+    }
+
+    .aboutus p {
+        width: 75%;
+    }
+
+    .aboutus-title p {
+        width: 100%;
+    }
 
 }
 
 
 @media screen and (min-width:769px) {
-    .navbar-menu{
+    .navbar-menu {
         display: none;
     }
 }
