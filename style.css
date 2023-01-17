@@ -280,6 +280,10 @@
     margin-bottom: 3%;
 }
 
+.aboutus h4{
+    font-size: 30px;
+}
+
 .aboutus p{
     text-align: center;
     margin-top: 1%;
@@ -379,6 +383,18 @@
 .contact h1{
     font-size: 22px;
     width: 75%;
+}
+
+.aboutus h4{
+    font-size: 25px
+}
+
+.aboutus p{
+    width: 75%;
+}
+
+.aboutus-title p{
+    width: 100%;
 }
 
 }
