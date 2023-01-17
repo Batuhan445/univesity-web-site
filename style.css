@@ -312,6 +312,14 @@
     display: none;
 }
 
+.about-header{
+    font-size: 15px;
+}
+
+.about-header h1{
+    font-size: 45px;
+}
+
 .course-sec{
     width: 75%;
 }
@@ -331,18 +339,16 @@
     margin-top: 10px;
 }
 
-/* .campus-title{
-    left: 45%;
-} */
+.facilities-container{
+    flex-direction: column;
+}
+
+.facilities-content{
+    margin-top: 35px;
+}
 
 }
 
-@media screen and (max-width:375px){
-    /* .campus-title{
-        left: 37%;
-        top: 40%;
-    } */
-}
 
 @media screen and (min-width:769px) {
     .navbar-menu{
