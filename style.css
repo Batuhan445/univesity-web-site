@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -84,16 +88,20 @@
     text-align: center;
 }
 
+.course-description{
+    margin-top: 10px;
+}
+
 .course-box {
     width: 75%;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     margin: auto;
+    margin-top: 40px;
 }
 
 .course-sec {
-    margin-top: 25px;
     display: flex;
     padding: 20px 15px;
     flex-direction: column;
@@ -122,8 +130,12 @@
     text-align: center;
 }
 
+.campus-description{
+    margin-top: 10px;
+}
+
 .campus-box {
-    padding-top: 20px;
+    padding-top: 40px;
     margin: auto;
     width: 75%;
     display: grid;
@@ -179,8 +191,10 @@
     justify-content: center;
     text-align: center;
     margin-top: 50px;
-    /* border: 1px solid purple; */
+}
 
+.facilities-description{
+    margin-top: 7px;
 }
 
 .facilities-container {
@@ -189,7 +203,7 @@
     margin: auto;
     grid-template-columns: auto auto auto;
     column-gap: 13%;
-    margin-top: 25px;
+    margin-top: 40px;
     /* border: 1px solid red; */
 }
 
@@ -215,10 +229,14 @@
     margin-top: 75px;
 }
 
+.student-description{
+    margin-top: 10px;
+}
+
 .student-container {
     display: flex;
     justify-content: space-around;
-    margin-top: 25px;
+    margin-top: 40px;
     width: 80%;
     /* border: 1px solid red; */
 }
@@ -340,6 +358,7 @@
     .student-description {
         margin: auto;
         width: 75%;
+        margin-top: 15px;
     }
 
     .navbar {
